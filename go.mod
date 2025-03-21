@@ -1,3 +1,3 @@
-module Golang-studys
+module Golang-studys/Algoritims/Soma
 
 go 1.24

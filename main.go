@@ -10,7 +10,7 @@ type Person struct {
 }
 
 func main() {
-	var person Person
+	person := &Person{}
 	fmt.Println("Insert your name:")
 	fmt.Scanln(&person.Name)
 	fmt.Println("Insert your age:")
